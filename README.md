@@ -11,9 +11,10 @@ From the Matlab prompt >>
 ```
 >> check_pypath
 C:/ACQ400_HAPI/acq400_hapi
-
+```
 
 3. edit name_UUTS.m to suit
+
 ```
 global UUTS
 
