@@ -33,7 +33,7 @@ UUTS =
 
 Basic HAPI test
 
-!(https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-17-19.png "Hello World")
+![Hello World](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-17-19.png "Hello World")
 
 ```
 >> acq400_hello_world
