@@ -63,7 +63,7 @@ filename =
 
 Creates this file:
 
-![Creates this file ](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-23-27.png "Create a waveform file")
+![Creates this file ](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-22-27.png "Create a waveform file")
 
 6. Load Waveform
 
