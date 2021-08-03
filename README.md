@@ -20,9 +20,7 @@ global UUTS
 %UUTS = {'acq2106_176'}
 UUTS = {'acq2106_176','acq2106_054'}
 %UUTS = {'acq2106_295','acq2106_293','acq2106_294'}
-```
-result:
-```
+
 >> name_UUTS
 
 UUTS =
@@ -33,6 +31,8 @@ UUTS =
 ```
 
 Basic HAPI test
+
+(https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-17-19.png "Hello World")
 
 ```
 >> acq400_hello_world
