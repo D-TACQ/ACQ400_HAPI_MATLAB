@@ -48,7 +48,7 @@ Screenshot from 2021-08-03 14-19-30
 ```
 >> sync_role(1e6)
 ```
-![After sync_role](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-19-30.png "sync_role")
+![After sync_role](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-19-30.png "sync_role")
 
 
 5. create a waveform in Matlab
@@ -59,11 +59,11 @@ filename =
     "DATA/myfile.raw"
 ```
 
-![Create a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-21-05.png "Create a waveform")
+![Create a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-21-05.png "Create a waveform")
 
 Creates this file:
 
-![Creates this file ](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-23-27.png "Create a waveform file")
+![Creates this file ](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-23-27.png "Create a waveform file")
 
 6. Load Waveform
 
@@ -83,7 +83,7 @@ exit
 quitting time 
 ```
 
-![load a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-23-35.png "Load a waveform")
+![load a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-23-35.png "Load a waveform")
 
 7. Run a Capture
 
@@ -120,7 +120,7 @@ TIMING:func:'run_shot' took: 54.88 sec
 
 ```
 
-![load a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-26-39.png "Load a waveform")
+![load a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-26-39.png "Load a waveform")
 
 8. Demux
 
@@ -147,7 +147,7 @@ demux_data("acq2106_054", 1:32, 16, 10, 1000, 2000)
 
 ```
 
-![plot capture data](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-30-42.png "plot capture data")
+![plot capture data](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-03.14-30-42.png "plot capture data")
 
 
 
