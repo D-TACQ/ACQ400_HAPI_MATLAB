@@ -43,26 +43,29 @@ SUCCESS: acq2106_054 acq2106,ACQ424ELF,ACQ424ELF,ACQ424ELF,ACQ424ELF,ACQ424ELF,A
 ```
 
 4. set up clocking
-Screenshot from 2021-08-03 14-17-19
+
 Screenshot from 2021-08-03 14-19-30
 ```
 >> sync_role(1e6)
 ```
+![After sync_role](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-19-30.png "sync_role")
 
 
-5. create a waveoform in Matlab
-Screenshot from 2021-08-03 14-21-05
+5. create a waveform in Matlab
+
 ```
 >> make_waves("ramp",0.1,0.25)
 filename =
     "DATA/myfile.raw"
 ```
+
+![Create a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-21-05.png "Create a waveform")
+
 Creates this file:
-Screenshot from 2021-08-03 14-22-27
+
+![Creates this file ](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-23-27.png "Create a waveform file")
 
 6. Load Waveform
-
-Screenshot from 2021-08-03 14-23-35
 
 ```
 >> load_waves()
@@ -80,8 +83,9 @@ exit
 quitting time 
 ```
 
+![load a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-23-35.png "Load a waveform")
+
 7. Run a Capture
-Screenshot from 2021-08-03 14-27-05
 
 ```
 >> awg_mgtdram_runner()
@@ -116,6 +120,8 @@ TIMING:func:'run_shot' took: 54.88 sec
 
 ```
 
+![load a waveform](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-26-39.png "Load a waveform")
+
 8. Demux
 
 ```
@@ -125,11 +131,6 @@ TIMING:func:'run_shot' took: 54.88 sec
 
   CHx       1x128            1342191616  cell
 
-```
-
-Screenshot from 2021-08-03 14-30-42
-
-```
 simple_plot("acq2106_054", 1:2:32, 16, 10)
 
 >> simple_plot()
@@ -145,3 +146,8 @@ demux_data("acq2106_054", 1:32, 16, 10, 1000, 2000)
 
 
 ```
+
+![plot capture data](https://github.com/D-TACQ/ACQ400_HAPI_MATLAB/releases/download/v001/Screenshot.from.2021-08-0314-30-42.png "plot capture data")
+
+
+
